@@ -1,3 +1,8 @@
+/*
+Created By : Omkar Sharma
+Description  : Place order.
+Last Modified Date : 20-December-2024
+*/
 const mongoose = require("mongoose");
 const { successResponse, errorResponse } = require("../../helpers/common");
 const Product = require("../../models/product");

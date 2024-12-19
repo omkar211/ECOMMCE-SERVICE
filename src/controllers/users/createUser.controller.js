@@ -1,3 +1,8 @@
+/*
+Created By : Omkar Sharma
+Description  : Create useradmin and customer.
+Last Modified Date : 20-December-2024
+*/
 const { successResponse, errorResponse } = require("../../helpers/common");
 const bcrypt = require('bcrypt');
 const User = require("../../models/users");

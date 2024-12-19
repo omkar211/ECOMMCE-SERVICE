@@ -1,3 +1,8 @@
+/*
+Created By : Omkar Sharma
+Description  : login user.
+Last Modified Date : 20-December-2024
+*/
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { successResponse, errorResponse , successResponseWithKeys} = require("../../helpers/common");

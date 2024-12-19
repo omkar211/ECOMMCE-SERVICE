@@ -1,3 +1,8 @@
+/*
+Created By : Omkar Sharma
+Description  : Get all products.
+Last Modified Date : 20-December-2024
+*/
 const { successResponse, errorResponse } = require("../../helpers/common");
 const { systemLogs } = require("../../helpers/logger");
 const Product = require("../../models/product");

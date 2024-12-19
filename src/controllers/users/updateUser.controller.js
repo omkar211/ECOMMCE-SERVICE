@@ -1,3 +1,8 @@
+/*
+Created By : Omkar Sharma
+Description  : Update user details.
+Last Modified Date : 20-December-2024
+*/
 const bcrypt = require('bcrypt');
 const { successResponse, errorResponse } = require("../../helpers/common");
 const { systemLogs } = require("../../helpers/logger");
